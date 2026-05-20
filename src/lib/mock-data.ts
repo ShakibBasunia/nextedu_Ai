@@ -1,0 +1,68 @@
+export const student = {
+  name: "আরিয়ান",
+  grade: 10,
+  streak: 12,
+  xp: 2450,
+  theta: {
+    physics: 1.8,
+    chemistry: 1.2,
+    mathematics: 2.1,
+    biology: 0.9,
+  },
+};
+
+export const subjects = [
+  { key: "physics", labelBn: "পদার্থবিজ্ঞান", labelEn: "Physics", theta: 1.8, pct: 85 },
+  { key: "chemistry", labelBn: "রসায়ন", labelEn: "Chemistry", theta: 1.2, pct: 62 },
+  { key: "mathematics", labelBn: "গণিত", labelEn: "Mathematics", theta: 2.1, pct: 92 },
+  { key: "biology", labelBn: "জীববিজ্ঞান", labelEn: "Biology", theta: 0.9, pct: 45 },
+];
+
+export const learningPath = [
+  { id: 1, titleBn: "গতি (Motion)", status: "completed", progress: 100, sub: "১০/১০ লেসন সম্পন্ন" },
+  { id: 2, titleBn: "বল (Force)", status: "active", progress: 42, sub: "বর্তমান অধ্যায় • ৪২% সম্পন্ন" },
+  { id: 3, titleBn: "কাজ, শক্তি ও ক্ষমতা", status: "locked", progress: 0, sub: "লক করা আছে" },
+  { id: 4, titleBn: "নিউটনের গতিসূত্র", status: "locked", progress: 0, sub: "লক করা আছে" },
+  { id: 5, titleBn: "তরঙ্গ ও শব্দ", status: "locked", progress: 0, sub: "লক করা আছে" },
+];
+
+export const sampleQuestion = {
+  topic: "কাজ ও ক্ষমতা",
+  difficulty: "Medium",
+  textBn:
+    "একটি বস্তুর ওপর ৫ নিউটন বল প্রয়োগ করলে যদি বস্তুর সরণ ২ মিটার হয়, তবে কাজের পরিমাণ কত?",
+  options: [
+    { key: "ka", labelBn: "ক", textBn: "২.৫ জুল", correct: false },
+    { key: "kha", labelBn: "খ", textBn: "১০ জুল", correct: true },
+    { key: "ga", labelBn: "গ", textBn: "৭ জুল", correct: false },
+    { key: "gha", labelBn: "ঘ", textBn: "৩ জুল", correct: false },
+  ],
+  explanationBn: "কাজ = বল × সরণ = ৫ × ২ = ১০ জুল।",
+};
+
+export const predictions = [
+  { topicBn: "নিউটনের গতিসূত্র", subject: "Physics", probability: 0.92 },
+  { topicBn: "কাজ ও ক্ষমতা", subject: "Physics", probability: 0.78 },
+  { topicBn: "জৈব রসায়নের নামকরণ", subject: "Chemistry", probability: 0.85 },
+  { topicBn: "পর্যায় সারণির প্রবণতা", subject: "Chemistry", probability: 0.74 },
+  { topicBn: "ত্রিকোণমিতি অনুপাত", subject: "Math", probability: 0.81 },
+  { topicBn: "সম্ভাবনা", subject: "Math", probability: 0.69 },
+  { topicBn: "মানব শ্বসনতন্ত্র", subject: "Biology", probability: 0.77 },
+  { topicBn: "জিন ও বংশগতি", subject: "Biology", probability: 0.71 },
+  { topicBn: "আলোর প্রতিফলন", subject: "Physics", probability: 0.66 },
+  { topicBn: "এসিড-ক্ষারক", subject: "Chemistry", probability: 0.62 },
+];
+
+export const badges = [
+  { id: 1, nameBn: "৭ দিনের ধারা", icon: "🔥", earned: true },
+  { id: 2, nameBn: "প্রথম কুইজ", icon: "✨", earned: true },
+  { id: 3, nameBn: "পদার্থ গুরু", icon: "⚡", earned: true },
+  { id: 4, nameBn: "নিখুঁত স্কোর", icon: "🏆", earned: false },
+  { id: 5, nameBn: "৩০ দিনের ধারা", icon: "🎯", earned: false },
+];
+
+export const careerPathway = {
+  nameBn: "ইঞ্জিনিয়ারিং ও প্রযুক্তি",
+  descBn: "তোমার গণিত ও পদার্থবিজ্ঞানের শক্তি প্রকৌশল ক্যারিয়ারের জন্য আদর্শ।",
+  topicsBn: ["ক্যালকুলাস", "তড়িৎ চুম্বকত্ব", "প্রোগ্রামিং ভিত্তি"],
+};
