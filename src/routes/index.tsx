@@ -1,12 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Flame, Zap, ArrowRight, Sparkles } from "lucide-react";
 import { student, subjects, learningPath, badges } from "../lib/mock-data";
-import {
-  ThetaProgressionChart,
-  StudyTimeChart,
-  PredictionsChart,
-  SkillRadar,
-} from "../components/Analytics";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -98,22 +92,6 @@ function HomePage() {
               </span>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Analytics — Recharts visualizations */}
-      <section className="space-y-4">
-        <div className="flex items-end justify-between border-b border-border pb-3">
-          <h3 className="font-bangla font-bold text-lg">অ্যানালিটিক্স ড্যাশবোর্ড</h3>
-          <span className="text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
-            Recharts • Live
-          </span>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <ThetaProgressionChart />
-          <SkillRadar />
-          <StudyTimeChart />
-          <PredictionsChart />
         </div>
       </section>
 

@@ -66,26 +66,3 @@ export const careerPathway = {
   descBn: "তোমার গণিত ও পদার্থবিজ্ঞানের শক্তি প্রকৌশল ক্যারিয়ারের জন্য আদর্শ।",
   topicsBn: ["ক্যালকুলাস", "তড়িৎ চুম্বকত্ব", "প্রোগ্রামিং ভিত্তি"],
 };
-
-// IRT theta progression over the last 8 weeks (per subject)
-export const thetaHistory = [
-  { week: "W1", physics: 0.4, chemistry: 0.2, math: 0.9, biology: 0.3 },
-  { week: "W2", physics: 0.7, chemistry: 0.4, math: 1.1, biology: 0.4 },
-  { week: "W3", physics: 0.9, chemistry: 0.5, math: 1.3, biology: 0.5 },
-  { week: "W4", physics: 1.1, chemistry: 0.7, math: 1.5, biology: 0.6 },
-  { week: "W5", physics: 1.3, chemistry: 0.9, math: 1.6, biology: 0.7 },
-  { week: "W6", physics: 1.5, chemistry: 1.0, math: 1.8, biology: 0.8 },
-  { week: "W7", physics: 1.7, chemistry: 1.1, math: 2.0, biology: 0.85 },
-  { week: "W8", physics: 1.8, chemistry: 1.2, math: 2.1, biology: 0.9 },
-];
-
-// Weekly study time distribution
-export const studyMinutes = [
-  { day: "শনি", minutes: 45 },
-  { day: "রবি", minutes: 60 },
-  { day: "সোম", minutes: 35 },
-  { day: "মঙ্গল", minutes: 80 },
-  { day: "বুধ", minutes: 50 },
-  { day: "বৃহঃ", minutes: 70 },
-  { day: "শুক্র", minutes: 90 },
-];
